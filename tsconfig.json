@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+      "module": "ESNext",
+      "target": "ES2020",
+      "moduleResolution": "Node",
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "allowJs": true,
+      "checkJs": false,
+      "strict": true,
+      "outDir": "./dist",
+      "rootDir": "./",
+      "resolveJsonModule": true,
+      "isolatedModules": true
+    },
+    "include": [
+      "test/**/*.js", // Pastikan ini mencakup folder test Anda
+      "wdio.conf.js"
+    ],
+    "exclude": [
+      "node_modules"
+    ]
+  }
